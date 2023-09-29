@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "classA",
+            "request": "launch",
+            "mainClass": "classA",
+            "projectName": "Full -Stack_b2ec7c47"
+        },
+        {
+            "type": "java",
+            "name": "classA1",
+            "request": "launch",
+            "mainClass": "classA1",
+            "projectName": "Full -Stack_b2ec7c47"
+        },
+        {
+            "type": "java",
+            "name": "classA2",
+            "request": "launch",
+            "mainClass": "classA2",
+            "projectName": "Full -Stack_b2ec7c47"
+        },
+        {
+            "type": "java",
+            "name": "meth",
+            "request": "launch",
+            "mainClass": "meth",
+            "projectName": "Full -Stack_b2ec7c47"
+        },
+        {
+            "type": "java",
+            "name": "meth1",
+            "request": "launch",
+            "mainClass": "meth1",
+            "projectName": "Full -Stack_b2ec7c47"
+        }
+    ]
+}
