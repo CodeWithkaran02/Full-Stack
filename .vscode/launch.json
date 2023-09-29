@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "classB",
+            "request": "launch",
+            "mainClass": "classB",
+            "projectName": "Full -Stack_b2ec7c47"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
