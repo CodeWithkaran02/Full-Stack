@@ -26,7 +26,7 @@ public class classA4 {
 
     }
 
-    String meth5() {
+    int meth5() {
         classA4 obj = new classA4();
         return obj.meth2(5);
 
