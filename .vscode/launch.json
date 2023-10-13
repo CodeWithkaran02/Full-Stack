@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "mathd",
+            "request": "launch",
+            "mainClass": "mathd",
+            "projectName": "Full -Stack_b2ec7c47"
+        },
+        {
+            "type": "java",
             "name": "classB1",
             "request": "launch",
             "mainClass": "classB1",
