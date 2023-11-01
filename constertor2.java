@@ -4,12 +4,13 @@ public class constertor2 {
         System.out.println("mathod called");
     }
 
-    constertor2() {
+    private constertor2() {
         System.out.println("defalt construtor");
+        return;
     }
 
-    constertor2(String s) {
-        System.out.println(s);
+    private constertor2(String s) {
+        System.out.println("Paramitrize Construtor:" + s);
     }
 
     public static void main(String[] args) {
