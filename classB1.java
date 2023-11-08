@@ -1,4 +1,3 @@
-import javax.sql.rowset.spi.SyncResolver;
 
 public class classB1 {
     void meth1(int a, int b) {
