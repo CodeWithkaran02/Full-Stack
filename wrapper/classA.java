@@ -14,9 +14,9 @@ public class classA {
 
         System.out.println("-----------------------------");
 
-        System.out.println("Interger PDT:" + ival1);
-        System.out.println("Interger PDT:" + ival2);
-        System.out.println("Interger PDT:" + ival3);
+        System.out.println("Interger PDT:" + i1);
+        System.out.println("Interger PDT:" + i2);
+        System.out.println("Interger PDT:" + i3);
 
         System.out.println("-----------------------------");
 

@@ -1,7 +1,7 @@
 public class static1 {
 
     static int x = 10;
-    static int y = 20;
+    static 34int y = 20;
     static {
 
         System.out.println("---test1 sb1 called ----");
