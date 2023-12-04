@@ -3,7 +3,8 @@ public class table {
         for (int i = 1; i <= 10; i++) {
 
             int b = a * i;
-            System.out.println(a + " *  " + i + " = " + b);
+            System.out.println(a + " * " + i + " = " + b);
+            // System.out.println(a + "* " + i + "=" + (a * i));
         }
 
     }
