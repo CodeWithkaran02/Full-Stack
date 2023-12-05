@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "grater",
+            "request": "launch",
+            "mainClass": "grater",
+            "projectName": "Full -Stack_b2ec7c47"
+        },
+        {
+            "type": "java",
             "name": "mathd",
             "request": "launch",
             "mainClass": "mathd",

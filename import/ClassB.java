@@ -1,4 +1,4 @@
-package pack1;
+//package pack1;
 
 public class ClassB {
     public void meth2() {
@@ -6,6 +6,6 @@ public class ClassB {
     }
 
     public static void main(String[] args) {
-        new ClassA1().meth1();
+        classA().meth10();
     }
 }
