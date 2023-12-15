@@ -13,13 +13,21 @@ public class String1 {
         System.out.println("S1 is :" + s4);
         System.out.println("S1 is :" + s1.concat("is awosome"));
 
-        s1 = s1.concat("is love");
-        System.out.println(s1);
+    }
 
+    void meth2() {
+        String s = "java";
+        System.out.println("s is printed:" + s);
+        System.out.println(s.concat("is awosome "));
+
+        s = s.concat("is love");
+        System.out.println(s);
     }
 
     public static void main(String[] args) {
         String1 sc = new String1();
         sc.meth1();
+        System.out.println("======================");
+        sc.meth2();
     }
 }
