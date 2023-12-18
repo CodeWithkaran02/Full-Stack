@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "String",
+            "request": "launch",
+            "mainClass": "String.String",
+            "projectName": "Full -Stack_b2ec7c47"
+        },
+        {
+            "type": "java",
+            "name": "logical2",
+            "request": "launch",
+            "mainClass": "logical2",
+            "projectName": "Full -Stack_b2ec7c47"
+        },
+        {
+            "type": "java",
             "name": "grater",
             "request": "launch",
             "mainClass": "grater",
