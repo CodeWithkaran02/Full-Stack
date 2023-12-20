@@ -21,4 +21,7 @@ public class getset {
         this.stuRollno = stuRollno;
         System.out.println("RollNumber assinged");
     }
+
+
+    
 }
