@@ -8,6 +8,9 @@ public class singlA extends singl {
         sl.meth();
         sl.meth1();
 
+        singlA
+
+        
         singlA sa = new singlA();
         sa.meth1();
         sa.meth();
