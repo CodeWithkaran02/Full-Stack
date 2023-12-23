@@ -9,6 +9,7 @@ public class super1 {
 
     super1(String s) {
         this();
+        this.meth();
         System.out.println("java" + s);
 
     }
