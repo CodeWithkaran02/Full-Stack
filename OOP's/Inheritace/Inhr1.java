@@ -1,4 +1,4 @@
-public class ClassA {
+public class Inhr1 {
     void meth() {
         System.out.println(10);
         System.out.println(this.meth2() + 56);
@@ -21,13 +21,13 @@ public class ClassA {
         System.out.println(56);
     }
 
-    ClassA() {
+    Inhr1() {
         this(52);
         this.meth1();
         System.out.println(85);
     }
 
-    ClassA(int a) {
+    Inhr1(int a) {
         System.out.println(a + 7);
     }
 }
