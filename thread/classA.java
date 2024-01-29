@@ -13,5 +13,8 @@ public class classA extends Thread {
         Thread t = new Thread(aobj);
         t.start();
 
+        Thread t2 = new Thread();
+        t2.start();
+
     }
 }
