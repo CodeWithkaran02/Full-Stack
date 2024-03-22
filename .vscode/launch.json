@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "String1",
+            "request": "launch",
+            "mainClass": "String1",
+            "projectName": "Full -Stack_b2ec7c47"
+        },
+        {
+            "type": "java",
+            "name": "qurry4",
+            "request": "launch",
+            "mainClass": "qurry4",
+            "projectName": "Full -Stack_b2ec7c47"
+        },
+        {
+            "type": "java",
+            "name": "ClassA",
+            "request": "launch",
+            "mainClass": "ClassA",
+            "projectName": "Full -Stack_b2ec7c47"
+        },
+        {
+            "type": "java",
+            "name": "ClassA",
+            "request": "launch",
+            "mainClass": "Stream.ClassA",
+            "projectName": "Full -Stack_b2ec7c47"
+        },
+        {
+            "type": "java",
             "name": "String",
             "request": "launch",
             "mainClass": "String.String",
