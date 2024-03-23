@@ -3,7 +3,7 @@ package pack1;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
-public class StreamClassA {
+public class ClassA {
     void fileopration1() throws Exception {
         System.out.println("Inpemention to stream read file ");
         FileInputStream fis = new FileInputStream("C:\\Users\\USER\\Desktop\\f1.txt");
@@ -45,7 +45,7 @@ public class StreamClassA {
     }
 
     public static void main(String args[]) throws Exception {
-        StreamClassA aobj = new StreamClassA();
+        ClassA aobj = new ClassA();
         // aobj.fileopration1();
         aobj.fileopration2();
         aobj.fileopration3();

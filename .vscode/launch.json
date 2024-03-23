@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ClassA",
+            "request": "launch",
+            "mainClass": "Stream.CharStream.ClassA",
+            "projectName": "Full -Stack_b2ec7c47"
+        },
+        {
+            "type": "java",
             "name": "String1",
             "request": "launch",
             "mainClass": "String1",
