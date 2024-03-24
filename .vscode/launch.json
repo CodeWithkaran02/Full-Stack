@@ -8,6 +8,13 @@
             "type": "java",
             "name": "ClassA",
             "request": "launch",
+            "mainClass": "Stream.DataStream.ClassA",
+            "projectName": "Full -Stack_b2ec7c47"
+        },
+        {
+            "type": "java",
+            "name": "ClassA",
+            "request": "launch",
             "mainClass": "Stream.CharStream.ClassA",
             "projectName": "Full -Stack_b2ec7c47"
         },
