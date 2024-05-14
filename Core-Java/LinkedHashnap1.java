@@ -1,29 +1,48 @@
 import java.util.LinkedHashMap;
 import java.util.Iterator;
+import java.util.Map.Entry;
 
 public class LinkedHashnap1 {
 
     void meth1() {
-        LinkedHashMap map = new LinkedHashMap();
-        map.put(101, "Java");
-        map.put("Java", 1000);
-        map.put(null, null);
-        map.put(103, "css");
-        map.put(105, "Html");
-        map.put(103, "Python");
-        map.put(104, "java");
+        LinkedHashMap hs = new LinkedHashMap();
 
-        System.out.println(map);
-        map.put(106, "C++");
-        System.out.println(map);
+        hs.put(101, "Java");
+
+        hs.put("Java", 1000);
+
+        hs.put(null, null);
+
+        hs.put(103, "css");
+
+        hs.put(105, "Html");
+
+        hs.put(103, "Python");
+
+        hs.put(104, "java");
+
+        System.out.println(hs);
+
+        hs.put(106, "C++");
+
+        System.out.println(hs);
+
         System.out.println("=======================");
-        System.out.println(map.get(103));
+
+        System.out.println(hs.get(103));
 
         System.out.println("===========================");
 
         System.out.println("Reterving the keyvalue from map");
 
-        // LinkedHashMap map2 = new LinkedHashMap(map.entrySet());
+        LinkedHashMap hs2 = new LinkedHashMap(hs.entrySet());
+
+        Iterator i = hs2.iterator();
+
+        while (i.hasNext()) {
+            System.out.println(i.next());
+
+        }
 
     }
 
